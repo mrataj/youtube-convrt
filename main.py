@@ -13,7 +13,7 @@ args = parser.parse_args()
 
 playlist = Playlist(args.playlist_url)
 
-print(str(len(playlist.video_urls)) + " videos found, download started ...")
+print(str(len(playlist.video_urls)) + " videos found, downloading in progress ...")
 
 # Download all tracks as mp4 files
 for video in playlist.videos:
